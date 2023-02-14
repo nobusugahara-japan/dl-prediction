@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dlprediction-dev-02738-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160286687470:role/amplify-dlprediction-dev-02738-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160286687470:role/amplify-dlprediction-dev-02738-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-dlprediction-dev-02738-deployment",
+      "UnauthRoleName": "amplify-dlprediction-dev-02738-unauthRole",
+      "StackName": "amplify-dlprediction-dev-02738",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:160286687470:stack/amplify-dlprediction-dev-02738/1e08f8a0-ac7c-11ed-8597-063f0131740b",
+      "AmplifyAppId": "d8y1sannvkmiz"
+    }
+  }
+}
