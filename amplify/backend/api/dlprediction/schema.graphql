@@ -1,0 +1,34 @@
+type OtherPrediction @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Owner: String
+  Category: String
+  ProductGroup: String
+  BookingDate: String
+  BookingValue: Float
+  BookingProbability: Float
+  BookingExpectedValue: Float
+  ShippingProbability: Float
+  ShippingExpectedValue: String
+  ShippingDate: String
+  key: String
+  Comment: String
+}
+
+type DLPrediction @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  Owner: String
+  OpportunityID: String
+  Opportunity: String
+  ProductGroup: String
+  BookingStatus: String
+  BookingDate: String
+  BookingValue: Float
+  BookingProbability: Float
+  BookingExpectedValue: Float
+  Comment: String
+  SamePEinSAP: Boolean
+  key: String
+  ShippingProbability: Float
+  ShippingExpectedValue: Float
+  ShippingDate: String
+} 
